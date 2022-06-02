@@ -51,6 +51,12 @@ body {
 }
 
 .timer {
+  color: ghostwhite;
+}
+
+.days,
+.hours,
+.minutes {
   font-size: 6.4rem;
   color: ghostwhite;
 }
@@ -62,5 +68,12 @@ body {
 @media (max-width: 600px) {
   .container {
     width: 100vw;
+    overflow: hidden;
+  }
+
+  .days,
+  .hours,
+  .minutes {
+    font-size: 3.4rem;
   }
 }
